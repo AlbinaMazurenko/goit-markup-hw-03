@@ -1,0 +1,217 @@
+:root {
+  --header-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --main-color: #FFFFFF;
+  
+
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  background: #E5E5E5;
+  color: black;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+/* header */
+.logo {
+  font-family: 'Raleway'; sans-serif
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-link:hover {
+  color: var(--accent-color);
+}
+
+.header-contact:hover {
+  color: var(--accent-color);
+}
+
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contact:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+
+/* button */
+.button {
+cursor: pointer;
+
+color: var(--text-color);
+background-color: var(--accent-color);
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.btn-secondary {
+color: var(--text-color)
+
+width: 145px;
+height: 38px;
+left: 712px;
+top: 174px;
+
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.btn-secondary:hover {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+}
+
+.btn-secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+}
+
+/* priorities */
+.priorities-pre-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.priorities-after-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* title */
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* team */
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-member-position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* portfolio */
+.pre-title {
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.after-title {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.adress {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contact {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+/* Cелекторы
+Универсальный селектор
+Тега
+*/
+
+[href] {
+  text-decoration: none;
+}
